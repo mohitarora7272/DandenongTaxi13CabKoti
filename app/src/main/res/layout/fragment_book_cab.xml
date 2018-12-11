@@ -1,0 +1,271 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dandenongtaxi13cab.Fragments.BookCabFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:padding="15dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                fontPath="fonts/Oxygen_Bold.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/online_booking"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="MissingPrefix" />
+
+            <Spinner
+                android:id="@+id/spnr_taxi"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_bg"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@android:color/white"
+                tools:ignore="MissingPrefix,RtlSymmetry" />
+
+            <EditText
+                android:id="@+id/edt_Name"
+                fontPath="fonts/Oxygen_Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorAccent"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/darker_gray"
+                android:textCursorDrawable="@drawable/cursor"
+                tools:ignore="MissingPrefix,RtlSymmetry">
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/edt_ContactNo"
+                fontPath="fonts/Oxygen_Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorAccent"
+                android:hint="@string/contact_no_text"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="8dp"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/darker_gray"
+                android:textCursorDrawable="@drawable/cursor"
+                tools:ignore="MissingPrefix,RtlSymmetry" />
+
+            <Spinner
+                android:id="@+id/spnr_now_later"
+                fontPath="fonts/Oxygen_Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_bg"
+                android:padding="8dp"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@android:color/white"
+                tools:ignore="MissingPrefix,RtlSymmetry" />
+
+            <LinearLayout
+                android:id="@+id/linearDateTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/tv_Date"
+                    fontPath="fonts/Oxygen_Regular.ttf"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:drawableEnd="@drawable/ic_date_range_black_24dp"
+                    android:drawableRight="@drawable/ic_date_range_black_24dp"
+                    android:hint="@string/date"
+                    android:lines="1"
+                    android:padding="8dp"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/darker_gray"
+                    tools:ignore="MissingPrefix,RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/tv_Time"
+                    fontPath="fonts/Oxygen_Regular.ttf"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:drawableEnd="@drawable/ic_access_time_white_24dp"
+                    android:drawableRight="@drawable/ic_access_time_white_24dp"
+                    android:hint="@string/time"
+                    android:lines="1"
+                    android:padding="8dp"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/darker_gray"
+                    tools:ignore="MissingPrefix,RtlSymmetry" />
+
+            </LinearLayout>
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_tv_pick"
+                fontPath="fonts/Oxygen_Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_bg"
+                android:hint="@string/pick_text"
+                android:padding="8dp"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/darker_gray"
+                android:textCursorDrawable="@drawable/cursor"
+                tools:ignore="MissingPrefix,RtlSymmetry" />
+
+            <LinearLayout
+                android:id="@+id/linearUnit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="3">
+
+                <EditText
+                    android:id="@+id/edt_Unit"
+                    fontPath="fonts/Oxygen_Regular.ttf"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="0.7"
+                    android:background="@color/colorAccent"
+                    android:hint="@string/unit_no"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:padding="8dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textCursorDrawable="@drawable/cursor"
+                    tools:ignore="MissingPrefix,RtlSymmetry" />
+
+                <EditText
+                    android:id="@+id/edt_HouseNo"
+                    fontPath="fonts/Oxygen_Regular.ttf"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:hint="@string/house_no"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:padding="8dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textCursorDrawable="@drawable/cursor"
+                    tools:ignore="MissingPrefix,RtlSymmetry" />
+
+                <EditText
+                    android:id="@+id/edt_Street"
+                    fontPath="fonts/Oxygen_Regular.ttf"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.3"
+                    android:background="@color/colorAccent"
+                    android:hint="@string/street"
+                    android:inputType="text"
+                    android:padding="8dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textCursorDrawable="@drawable/cursor"
+                    tools:ignore="MissingPrefix,RtlSymmetry" />
+
+            </LinearLayout>
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_tv_going_to"
+                fontPath="fonts/Oxygen_Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_bg"
+                android:hint="@string/going_to_text"
+                android:padding="8dp"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/darker_gray"
+                android:textCursorDrawable="@drawable/cursor"
+                tools:ignore="MissingPrefix,RtlSymmetry" />
+
+            <EditText
+                android:id="@+id/edt_Remarks"
+                fontPath="fonts/Oxygen_Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorAccent"
+                android:hint="@string/remarks"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/darker_gray"
+                android:textCursorDrawable="@drawable/cursor"
+                tools:ignore="MissingPrefix,RtlSymmetry" />
+
+            <Button
+                android:id="@+id/btn_Send"
+                fontPath="fonts/Oxygen_Regular.ttf"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="@string/send"
+                android:textColor="@android:color/white"
+                tools:ignore="MissingPrefix,RtlSymmetry" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

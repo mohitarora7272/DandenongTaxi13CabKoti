@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">13 Taxi Dandenong Koti</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_book_cab">Book A Cab</string>
+    <string name="nav_our_services">Our Services</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="nav_contact_us">Contact Us</string>
+    <string name="nav_privacy_policy">Privacy Policy</string>
+    <string name="nav_share">Share</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>@string/nav_home</item>
+        <item>@string/nav_book_cab</item>
+        <item>@string/nav_our_services</item>
+        <item>@string/app_name</item>
+        <item>@string/app_name</item>
+        <item>@string/nav_privacy_policy</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <string name="about_us_text">Dandenong Taxi 13 Cab provides convenient transport to your desired destination, including airport transfers to or from Melbourne Airport with no extra cost. Our professional and trustworthy drivers are always glad to help you with our affordable service anytime to satisfy our customers’ needs.</string>
+    <string name="contact_us_text">We do special airport transfers to and from the above cities at your convenience. We don’t mind short of long runs. Customer satisfaction is our moto. We are available 24/7 to serve you. Please book your next trip to experience our service and more over request you to leave your feedback and rate our service.</string>
+    <string name="contact_us_text_one">• Mostly we are specialised in Airport transfer from and to all the major cities of South Eastern suburbs.</string>
+    <string name="contact_us_text_two">• Parcel delivery services</string>
+    <string name="contact_us_text_three">• Maxi taxi services</string>
+    <string name="contact_us_text_four">• Permanent transportation by booking any of our specialised drivers.</string>
+
+    <string name="title_go_anywhere">Dandenong Taxi Go Anywhere Anytime</string>
+    <string name="des_go_anywhere">Dandenong Taxi 13 Cab is one of the largest taxi service in South East suburbs of Melbourne. We are proud to be locally owned and operated by clean latest cars by reliable professional friendly drivers. All vehicles in our fleet are accredited under the state government regulations providing high standard services. We offer a wide range of services to help you get where you need to be on time. All the vehicles are maintained clean and tidy with valid insurance. We can customise our services to suit your needs even for a reasonable set price. To discuss or arrange your required service please contact us now by sending an email, text message or voice call.
+We accept all major credit cards, cab charge and half price MPTP cards. All the fares are transparent on meter with out any hidden charges except the fares set prior to the booking.</string>
+    <string name="title_pro_driver">Professional Drivers</string>
+    <string name="des_pro_driver">We have a vast number of experienced professional drivers accredited by the Taxi Service Commission (TSC) of Victoria with several years of experience. All the drivers have their uniform for the professional appearance and well trained to make our valued customers feel safe &amp; comfortable. Drivers have a vast knowledge of the all the area in Melbourne thus you may save lots of time in your busy schedule.</string>
+
+    <string name="contact_no">+61449913222</string>
+    <string name="contact_no_cab">+61449913CAB</string>
+    <string name="email">dandenongtaxi13cab@gmail.com</string>
+    <string name="accept_credit_card_text">We accept all major credit cards, cab charge and half price taxi cards</string>
+    <string name="contact_no_text">Contact No.</string>
+    <string name="copyright_text">Copyright © 2018 DandenongTaxi13Cab. \n All rights reserved.</string>
+    <string name="online_booking">Online Booking</string>
+    <string name="advance_online_booking">FOR ADVANCE BOOKING</string>
+    <string name="book_now">Book Now</string>
+    <string name="send">Send</string>
+    <string name="wedding_text">WEDDING OR SPECIAL OCCASION</string>
+    <string name="word_class_text">WORLD CLASS CHAUFFEUR</string>
+    <string name="airport_taxi_text">AIRPORT TAXI &amp; QUICK SERVICE</string>
+    <string name="click_here_text">Click here to book a Taxi</string>
+    <string name="name">Name</string>
+    <string name="email_text">Email</string>
+    <string name="your_message">Your Message</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="now">Now</string>
+    <string name="later">Later</string>
+    <string name="unit_no">Unit No</string>
+    <string name="house_no">House No</string>
+    <string name="street">Street</string>
+    <string name="remarks">Remarks</string>
+    <string name="dial_now">DIAL NOW</string>
+
+    <!--<string name="play_services_text"><u>Google Play Services</u></string>-->
+    <string name="play_services_text"><a href="https://play.google.com/store/apps/details?id=com.dandenongtaxi13cab"><u>Google Play Services</u></a></string>
+    <string name="one_text">Information Collection and Use</string>
+    <string name="two_text">Log Data</string>
+    <string name="three_text">Cookies</string>
+    <string name="four_text">Service Providers</string>
+    <string name="five_text">Security</string>
+    <string name="six_text">Links to Other Sites</string>
+    <string name="seven_text">Children’s Privacy</string>
+    <string name="eight_text">Changes to This Privacy Policy</string>
+    <string name="nine_text">Contact Us</string>
+
+    <string name="policy_text_one">Dandenong Taxi 13 Cab built the 13 Taxi app as a Free app. This Service is provided by Dandenong Taxi 13 Cab at no cost and is intended for use as is.
+
+This page is used to inform website visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
+
+If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
+
+The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Dandenongtaxi13cab unless otherwise defined in this Privacy Policy.</string>
+
+    <string name="policy_text_two">For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information. The information that we request is will be retained by us and used as described in this privacy policy.
+
+The app does use third party services that may collect information used to identify you.
+
+Link to privacy policy of third party service providers used by the app</string>
+    <string name="policy_text_three">We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.</string>
+    <string name="policy_text_four">Cookies are files with small amount of data that is commonly used an anonymous unique identifier. These are sent to your browser from the website that you visit and are stored on your device internal memory.
+
+This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collection information and to improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.</string>
+    <string name="policy_text_five">We may employ third-party companies and individuals due to the following reasons:\n\n
+
+• To facilitate our Service;\n
+• To provide the Service on our behalf;\n
+• To perform Service-related services; or\n
+• To assist us in analyzing how our Service is used.\n\n
+We want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.</string>
+    <string name="policy_text_six">We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.</string>
+    <string name="policy_text_seven">This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.</string>
+    <string name="policy_text_eight">These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.</string>
+    <string name="policy_text_nine">We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.</string>
+    <string name="policy_text_ten">If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at</string>
+    <string name="no_internet">Unable to connect to the Internet.</string>
+
+    <string name="enter_name">Please Enter Your Name</string>
+    <string name="enter_contact_no">Please Enter Contact Number</string>
+    <string name="enter_correct_contact_no">Please Enter Correct Contact Number</string>
+    <string name="enter_email">Please Enter Email</string>
+    <string name="enter_valid_email">Please Enter Correct Email</string>
+    <string name="enter_message">Please Enter Message</string>
+    <string name="enter_date">Please Enter Date</string>
+    <string name="enter_time">Please Enter Time</string>
+
+    <string name="enter_pick_up_address">Please Enter Pick Up Address</string>
+    <string name="enter_house_no">Please Enter House No.</string>
+    <string name="enter_street_address">Please Enter Street Address</string>
+
+    <string name="now_text">Now</string>
+    <string name="later_text">Later</string>
+
+    <string name="pick_text">Pick Up Suburb</string>
+    <string name="going_to_text">Going To Suburb</string>
+    <string name="correctDate">Please Select Correct Date</string>
+    <string name="contact_request">Contact Request For</string>
+    <string name="booking_request">Booking Request For</string>
+    <string name="ok">OK</string>
+
+    <array name="taxi_list">
+        <item>Sedan</item>
+        <item>Silver Service</item>
+        <item>Wagon</item>
+        <item>Maxi</item>
+    </array>
+    <array name="now_later_list">
+        <item>@string/now</item>
+        <item>@string/later</item>
+    </array>
+
+    <string name="permissions_denied">Permissions denied.</string>
+    <string name="permission_external_storage_denied">Permission to access call denied.</string>
+    <string name="action_settings">"Settings"</string>
+    <string name="exit_message">Are you sure you want to exit?</string>
+    <string name="yes_text">Yes</string>
+    <string name="no_text">No</string>
+</resources>
+
+

@@ -1,0 +1,204 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dandenongtaxi13cab.Fragments.PrivacyPolicyFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            fontPath="fonts/Oxygen_Light.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/policy_text_one"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Oxygen_Bold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/one_text"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Oxygen_Light.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/policy_text_two"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:id="@+id/tv_GooglePlayServices"
+            fontPath="fonts/Oxygen_Bold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:text="@string/play_services_text"
+            android:textColor="@color/colorPrimaryDark"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Oxygen_Bold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/two_text"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+
+        <TextView
+            fontPath="fonts/Oxygen_Light.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/policy_text_three"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Oxygen_Bold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/three_text"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Oxygen_Light.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/policy_text_four"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Oxygen_Bold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/four_text"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Oxygen_Light.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/policy_text_five"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Oxygen_Bold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/five_text"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Oxygen_Light.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/policy_text_six"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Oxygen_Bold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/six_text"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Oxygen_Light.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/policy_text_seven"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Oxygen_Bold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/seven_text"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Oxygen_Light.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/policy_text_eight"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Oxygen_Bold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/eight_text"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Oxygen_Light.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/policy_text_nine"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Oxygen_Bold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/nine_text"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Oxygen_Light.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/policy_text_ten"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Oxygen_Bold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:autoLink="email"
+            android:text="@string/email"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            tools:ignore="MissingPrefix" />
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+

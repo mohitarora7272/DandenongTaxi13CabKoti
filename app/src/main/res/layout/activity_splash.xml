@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dandenongtaxi13cab.ui.activities.SplashActivity">
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="165dp"
+        android:layout_height="130dp"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/logo_banner"
+        android:contentDescription="@string/app_name" />
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageLogo"
+        android:layout_centerInParent="true"
+        app:indicatorName="BallPulseIndicator" />
+
+    <TextView
+        fontPath="fonts/Oxygen_Regular.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/copyright_text"
+        android:textSize="12sp"
+        tools:ignore="MissingPrefix" />
+
+</RelativeLayout>
